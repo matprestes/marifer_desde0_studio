@@ -1,0 +1,6 @@
+{
+  "name": "MARIFER — Tienda de Barrio | Sayago",
+  "description": "Almacén, indumentaria, calzado, perfumería y bazar vecinal en Sayago, Montevideo. Armá tu bolso y coordiná tu pedido directo por WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

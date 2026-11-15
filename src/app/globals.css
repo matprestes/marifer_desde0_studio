@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@config "../../tailwind.config.js";
+
+@layer base {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #fbf9fc;
+    color: #1b1b1e;
+  }
+
+  body {
+    overscroll-behavior-y: none;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.tabular-price {
+  font-variant-numeric: tabular-nums;
+}

@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&amp;family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-tertiary": "#ffffff", "tertiary": "#001404", "on-primary": "#ffffff", "outline": "#7d747d", "primary-fixed": "#f5d9ff", "on-secondary-fixed-variant": "#73341b", "secondary": "#914b30", "primary-container": "#331b40", "secondary-fixed-dim": "#ffb59a", "primary": "#1c052a", "on-primary-container": "#a081ad", "surface-container-high": "#e9e7ea", "tertiary-fixed-dim": "#3de273", "error": "#ba1a1a", "on-tertiary-fixed-variant": "#005322", "tertiary-fixed": "#66ff8e", "on-secondary-container": "#79381f", "on-error-container": "#93000a", "inverse-on-surface": "#f2f0f3", "on-background": "#1b1b1e", "outline-variant": "#cec3cd", "on-secondary": "#ffffff", "error-container": "#ffdad6", "on-surface-variant": "#4b454d", "on-tertiary-fixed": "#002109", "secondary-fixed": "#ffdbcf", "surface-container-highest": "#e3e2e5", "surface-container": "#efedf0", "surface-container-lowest": "#ffffff", "surface-variant": "#e3e2e5", "on-primary-fixed-variant": "#573d64", "surface-bright": "#fbf9fc", "inverse-surface": "#303033", "background": "#fbf9fc", "inverse-primary": "#dcbbea", "surface-dim": "#dbd9dc", "surface-tint": "#70547d", "surface": "#fbf9fc", "on-primary-fixed": "#291136", "primary-fixed-dim": "#dcbbea", "on-error": "#ffffff", "tertiary-container": "#002c0f", "on-tertiary-container": "#00a249", "secondary-container": "#ffa584", "on-secondary-fixed": "#380d00", "surface-container-low": "#f5f3f6", "on-surface": "#1b1b1e" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter-desktop": "1.5rem", "margin-desktop": "2.5rem", "gutter": "1rem", "space-lg": "1.5rem", "margin-tablet": "1.5rem", "margin": "1rem", "space-xl": "2.5rem", "space-sm": "0.5rem", "space-md": "1rem", "space-xs": "0.25rem" }, "fontFamily": { "body-sm": ["Nunito Sans"], "headline-lg": ["Nunito Sans"], "label-sm": ["Plus Jakarta Sans"], "body-md": ["Nunito Sans"], "headline-lg-mobile": ["Nunito Sans"], "label-lg": ["Plus Jakarta Sans"], "body-lg": ["Nunito Sans"], "display-hero-mobile": ["Nunito Sans"], "headline-sm": ["Nunito Sans"], "headline-md": ["Nunito Sans"], "label-md": ["Plus Jakarta Sans"], "display-hero": ["Nunito Sans"] }, "fontSize": { "body-sm": ["13px", { "lineHeight": "18px", "fontWeight": "500" }], "headline-lg": ["32px", { "lineHeight": "38px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "600" }], "body-md": ["15px", { "lineHeight": "22px", "fontWeight": "400" }], "headline-lg-mobile": ["26px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "label-lg": ["14px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "700" }], "body-lg": ["18px", { "lineHeight": "26px", "fontWeight": "400" }], "display-hero-mobile": ["34px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "headline-sm": ["20px", { "lineHeight": "26px", "fontWeight": "700" }], "headline-md": ["24px", { "lineHeight": "30px", "fontWeight": "700" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "700" }], "display-hero": ["48px", { "lineHeight": "54px", "letterSpacing": "-0.02em", "fontWeight": "800" }] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-fixed"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="w-full bg-primary text-on-primary py-space-xs px-gutter"><div class="max-w-7xl mx-auto flex items-center justify-between font-label-sm text-label-sm"><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[15px] text-tertiary-fixed">storefront</span><span>Sayago, Montevideo • Retiro en puerta sin costo</span></div><div class="hidden sm:flex items-center gap-space-xs"><span class="material-symbols-outlined text-[15px] text-tertiary-fixed">chat</span><span>Consultas al 093 374 496</span></div></div></div><div class="h-20 max-w-7xl mx-auto px-gutter lg:px-margin-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex flex-col text-left group" data-path="inicio" href="#"><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none group-hover:text-secondary transition-colors">MARIFER</span><span class="font-label-sm text-label-sm text-on-surface-variant mt-space-xs">Tienda de Barrio • Sayago</span></a></div><div class="hidden md:flex flex-1 max-w-md mx-space-md"><div class="relative w-full"><span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px]">search</span><input class="w-full pl-10 pr-4 py-space-xs rounded-full bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm outline-none focus:bg-surface-container-lowest shadow-sm transition-all" placeholder="Buscar bazar, librería, novedades..." type="search"/></div></div><nav class="hidden xl:flex items-center gap-space-sm" data-active-classes="bg-primary-container text-on-primary-container rounded-full font-bold"><a aria-current="page" class="px-space-md py-space-xs transition-colors bg-primary-container text-on-primary-container rounded-full font-bold" data-path="inicio" href="#">Inicio</a><a class="px-space-md py-space-xs rounded-full text-on-surface-variant hover:text-on-surface transition-colors font-label-md text-label-md" data-path="catalogo" href="#">Catálogo</a><a class="px-space-md py-space-xs rounded-full text-on-surface-variant hover:text-on-surface transition-colors font-label-md text-label-md" data-path="arma-tu-bolso" href="#">Armá tu Bolso</a><a class="px-space-md py-space-xs rounded-full text-on-surface-variant hover:text-on-surface transition-colors font-label-md text-label-md" data-path="como-comprar" href="#">¿Cómo Comprar?</a></nav><div class="flex items-center gap-space-sm"><a class="flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-[#25D366] text-on-tertiary shadow-[0_6px_20px_0_rgba(37,211,102,0.35)] hover:opacity-95 transition-all font-label-md text-label-md" href="https://wa.me/59893374496" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">chat</span><span class="hidden sm:inline">Pedir por WhatsApp</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- SECCIÓN 1: HERO (Opción 1 - Orgánico Curvo Violeta Profundo) -->
+<section class="relative w-full bg-primary-container text-on-primary rounded-b-[2rem] lg:rounded-b-[3.5rem] overflow-hidden shadow-xl">
+<!-- Fondos luminosos sutiles con gradiente para calidez -->
+<div class="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-secondary-container/15 blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 -right-24 w-80 h-80 rounded-full bg-primary-fixed/10 blur-3xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-gutter lg:px-margin-desktop pt-space-xl pb-space-xl lg:pt-28 lg:pb-24 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Bloque de Texto Principal y Buscador -->
+<div class="lg:col-span-7 flex flex-col space-y-space-md text-left">
+<!-- Badge Barrial Superior -->
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container-lowest/10 backdrop-blur-md self-start text-on-primary">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-container animate-pulse"></span>
+<span class="font-label-sm text-label-sm tracking-wide uppercase text-secondary-fixed">Comercio 100% de Sayago • Montevideo</span>
+</div>
+<!-- Titular Principal con Acento Coral Durazno -->
+<h1 class="font-display-hero-mobile lg:font-display-hero text-display-hero-mobile lg:text-display-hero tracking-tight text-on-primary leading-tight">
+            Todo lo que necesitás, <span class="text-secondary-container">directo a tu casa</span> y a buen precio.
+          </h1>
+<!-- Bajada / Subtítulo -->
+<p class="font-body-lg text-body-lg text-on-primary-container leading-relaxed max-w-xl">
+            Ropa cómoda, calzado urbano, perfumería y cositas lindas de bazar para el hogar. Todo junto y a buen precio, para todos, sin vueltas ni demoras.
+          </p>
+<!-- Buscador Interactivo en Píldora -->
+<div class="pt-space-xs w-full max-w-xl">
+<form class="relative flex items-center bg-surface-container-lowest rounded-full p-1.5 shadow-lg shadow-primary/20" onsubmit="event.preventDefault();">
+<span class="material-symbols-outlined text-on-surface-variant ml-3 text-[22px]">search</span>
+<input class="w-full bg-transparent px-3 py-space-xs text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/70 outline-none" placeholder="¿Qué buscás hoy? Ej. buzo frizado, pantuflas, termo..." type="text"/>
+<button class="flex items-center gap-space-xs px-space-lg py-space-xs rounded-full bg-secondary-container text-on-secondary-fixed font-label-md text-label-md hover:brightness-105 active:scale-95 transition-all shadow-sm flex-shrink-0" type="button">
+<span>Buscar</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</form>
+</div>
+<!-- Prueba Social: Vecinas Felices y WhatsApp -->
+<div class="pt-space-sm flex flex-wrap items-center gap-space-md text-on-primary-container font-label-sm text-label-sm">
+<div class="flex items-center -space-x-2">
+<div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center font-bold text-label-sm shadow">AC</div>
+<div class="w-8 h-8 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center font-bold text-label-sm shadow">ML</div>
+<div class="w-8 h-8 rounded-full bg-primary-fixed text-on-primary-fixed flex items-center justify-center font-bold text-label-sm shadow">VR</div>
+<div class="w-8 h-8 rounded-full bg-surface-container-highest text-primary flex items-center justify-center font-bold text-label-sm shadow">+40</div>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1 text-[#FFD700]">
+<span class="font-bold text-on-primary text-[13px]">5.0</span>
+<div class="flex">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<span class="text-on-primary-container">Vecinas felices en Sayago y alrededores</span>
+</div>
+<span class="hidden sm:inline-block w-1.5 h-1.5 rounded-full bg-on-primary-container/40"></span>
+<a class="inline-flex items-center gap-1.5 text-tertiary-fixed hover:text-white transition-colors group" href="https://wa.me/59893374496" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px] text-[#25D366]">chat</span>
+<span class="underline decoration-tertiary-fixed underline-offset-4 group-hover:decoration-white font-label-md text-label-md">Respondemos al toque por WhatsApp</span>
+</a>
+</div>
+</div>
+<!-- Columna Visual Derecha: Composición Orgánica -->
+<div class="lg:col-span-5 relative flex justify-center items-center">
+<div class="relative w-full max-w-md aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl bg-surface-container-high/20 backdrop-blur-sm p-2.5">
+<div class="w-full h-full rounded-[2rem] bg-cover bg-center" data-alt="A warm, bright, candid scene inside a cozy neighborhood general goods and boutique store in Sayago, Montevideo. Friendly local Uruguayan customers smiling while browsing colorful soft fleece sweaters, urban sneakers, and charming ceramic kitchenware. Natural soft daylight, warm wooden shelves, lavender and terracotta accents, joyful community atmosphere, highly detailed realistic photography." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAYRRqvGeIOhFMuXELZfKlX0y_wrKQXu9QlI1XOAfxHVnpNVMASAFMK1I64J7Gi6-BaQ_IPNpEDcxWlM28kvRCcvq268kKCJ5NwFTTchWYgBnV_Clg3kLMtFLIXLGV-Kr5BUhjIHZ_QWzoVHmPn32eoV7CY2haFqKrxLlnlH6x_5MAZ5ElCijeApV4X7o9c9kTzNJ_dERiqHECVbCQz6__17oz_TK3GUl79mjN0wdg')"></div>
+<!-- Tag Flotante Destacado -->
+<div class="absolute bottom-6 left-6 right-6 bg-surface-container-lowest/95 backdrop-blur-md rounded-2xl p-space-sm shadow-xl flex items-center justify-between text-on-surface">
+<div class="flex items-center gap-space-xs">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[22px]">favorite</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-[15px] leading-tight text-primary">Atención cálida</span>
+<span class="font-label-sm text-label-sm text-secondary">Precios accesibles siempre</span>
+</div>
+</div>
+<span class="inline-flex items-center justify-center px-3 py-1 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm font-bold">Sayago</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 2: CINTA DESTACADA - LOS MÁS PEDIDOS DE LA SEMANA EN SAYAGO -->
+<section class="w-full max-w-7xl mx-auto px-gutter lg:px-margin-desktop py-space-xl">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-xs mb-space-lg">
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[22px]">local_fire_department</span>
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest font-bold">Récord de consultas</span>
+</div>
+<h2 class="font-headline-lg-mobile lg:font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-primary tracking-tight">
+          Los más pedidos de la semana en Sayago
+        </h2>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Llegaron hace días y vuelan rápido</span>
+</div>
+<!-- Grilla Horizontal de 4 Tarjetas Compactas -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Producto 1 -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-sm shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div class="flex items-center gap-space-sm">
+<div class="w-20 h-20 rounded-xl bg-cover bg-center flex-shrink-0" data-alt="Close up photograph of a thick warm unisex fleece sweater in soft lavender purple and charcoal grey hanging neatly on a wooden hanger with clean lighting and high texture details." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC7-ZhsJuBqEe26kVf6XmShT6dfnQtO_Z-1WAgAeXAJfWqL3vgS-oF513HPdIV8WzM2mP4Tiww2ah7Sv6YTtQGWK29rNWKW493fi1dbD1tOgAgAdQa8_BIfqAZVPLQPwAfVblKh6ce2sMwIfyk1Tj_uYKS6zkHbXO_xXbmrJsJzYpyeemem60gHWzCjJbmPKCUFMWiB01BUApJmYEyM3LwXUHI9dogxwYF2m39fLBk')"></div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Ropa &amp; Abrigo</span>
+<h3 class="font-headline-sm text-[16px] leading-tight text-primary truncate">Buzo polar frizado</h3>
+<div class="flex items-center gap-1 text-[#FFB800] mt-1">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold">5.0 (28 compras)</span>
+</div>
+<div class="font-headline-sm text-headline-sm text-primary mt-1">$690</div>
+</div>
+</div>
+<a class="mt-space-sm w-full py-2 rounded-full bg-surface-container-low hover:bg-secondary-fixed text-primary font-label-sm text-label-sm text-center font-bold transition-colors" href="https://wa.me/59893374496?text=Hola!%20Quisiera%20consultar%20por%20el%20Buzo%20polar%20frizado" rel="noopener noreferrer" target="_blank">
+          Consultar color y talle
+        </a>
+</div>
+<!-- Producto 2 -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-sm shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div class="flex items-center gap-space-sm">
+<div class="w-20 h-20 rounded-xl bg-cover bg-center flex-shrink-0" data-alt="A clean product shot of modern unisex daily walking sneakers in minimalist white with soft terracotta accents, comfortable cushioned sole, studio lighting on soft background." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAV12B09-bgs6li73lTO2oe3NustCH07Uud10Q7P-6oGZEb8kA1IPiTB9N0P-0c7MrkE-peR8T-BsbnK_5zvSiyRgcBmhW9PiF5AXJugxQFRxgEsBjx4Peia72U7A_PAqU8dRjCr4TmmRdezOTa9L-mRVbQyl99IvoWdA1Ws6oVqnS2Ba1SVQVdwTrhfExjP4E8Ra4kjAgfoPcjvQmS5Fnk4jEl7AqUOBBpwQGdhOo')"></div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Calzado Diario</span>
+<h3 class="font-headline-sm text-[16px] leading-tight text-primary truncate">Zapatilla urbana unisex</h3>
+<div class="flex items-center gap-1 text-[#FFB800] mt-1">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold">4.9 (42 compras)</span>
+</div>
+<div class="font-headline-sm text-headline-sm text-primary mt-1">$950</div>
+</div>
+</div>
+<a class="mt-space-sm w-full py-2 rounded-full bg-surface-container-low hover:bg-secondary-fixed text-primary font-label-sm text-label-sm text-center font-bold transition-colors" href="https://wa.me/59893374496?text=Hola!%20Quisiera%20consultar%20talles%20de%20la%20Zapatilla%20urbana%20unisex" rel="noopener noreferrer" target="_blank">
+          Consultar número
+        </a>
+</div>
+<!-- Producto 3 -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-sm shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div class="flex items-center gap-space-sm">
+<div class="w-20 h-20 rounded-xl bg-cover bg-center flex-shrink-0" data-alt="An elegant perfume mist bottle labeled Cherry Blossom Body Splash with delicate pink mist and floral accents on a clean light stone tabletop with soft pastel shadows." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBhrfTgfjNQ3xM8_nAUBICuz4DfhBEg4ByQJG0aRUP1t48nDPwD1ic0Okv57J7R_6k3dkmPz-5qdLP6OPw3gCPxNrlD2W6zK-CajpnHEWqq0HMCMX_Ai9tNvvpLPHTEOj9p80jvpgJzWis6dmjec3jnMAwWqC4Mb7cFBXhx0jDkntzg0cZAXlSbATzNPWYtExMNxrAlj14xwmJ1p-hEoejFey5a7ZIcgO9uVFbsOSY')"></div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Perfumería</span>
+<h3 class="font-headline-sm text-[16px] leading-tight text-primary truncate">Body Splash Flor de Cerezo</h3>
+<div class="flex items-center gap-1 text-[#FFB800] mt-1">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold">5.0 (54 compras)</span>
+</div>
+<div class="font-headline-sm text-headline-sm text-primary mt-1">$380</div>
+</div>
+</div>
+<a class="mt-space-sm w-full py-2 rounded-full bg-surface-container-low hover:bg-secondary-fixed text-primary font-label-sm text-label-sm text-center font-bold transition-colors" href="https://wa.me/59893374496?text=Hola!%20Quisiera%20reservar%20un%20Body%20Splash%20Flor%20de%20Cerezo" rel="noopener noreferrer" target="_blank">
+          Probar aroma
+        </a>
+</div>
+<!-- Producto 4 -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-sm shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div class="flex items-center gap-space-sm">
+<div class="w-20 h-20 rounded-xl bg-cover bg-center flex-shrink-0" data-alt="A stack of four neat transparent kitchen food storage containers with airtight pastel silicone lids, displayed neatly in a warm modern kitchen counter." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDMd8jx9ccidFXb0CDxqUdKbqvCX4LWy-XDFw21ShBhVAyConOlzuYItpjvh74Wl-fsZBCmq8MOZeO6215N9qdiwhdP2o3TLokD2llxoePow2epMeHSWkXmA6Ielc-I3rtLGp5vCIxaY60wdTqvQVVCgJMHENTkQBfwm1SBIUVG1P4ZSUdzFxBG2zZwDb9aoOTUzsKhVW5ctGF3OiTKBHTdtROec0jsWI-s8DajLsE')"></div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-secondary font-bold">Bazar &amp; Cocina</span>
+<h3 class="font-headline-sm text-[16px] leading-tight text-primary truncate">Set x4 Herméticos Cocina</h3>
+<div class="flex items-center gap-1 text-[#FFB800] mt-1">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold">4.8 (37 compras)</span>
+</div>
+<div class="font-headline-sm text-headline-sm text-primary mt-1">$490</div>
+</div>
+</div>
+<a class="mt-space-sm w-full py-2 rounded-full bg-surface-container-low hover:bg-secondary-fixed text-primary font-label-sm text-label-sm text-center font-bold transition-colors" href="https://wa.me/59893374496?text=Hola!%20Tienen%20disponible%20el%20Set%20x4%20Herméticos?" rel="noopener noreferrer" target="_blank">
+          Pedir por WhatsApp
+        </a>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 3: SELECCIÓN BARRIAL - GRILLA BENTO / MOSAICO MODULAR (Estilo Opción 3) -->
+<section class="w-full max-w-7xl mx-auto px-gutter lg:px-margin-desktop py-space-xl">
+<div class="flex flex-col mb-space-lg text-left">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest font-bold">Oportunidades únicas</span>
+<h2 class="font-headline-lg-mobile lg:font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-primary tracking-tight">
+        Selección Barrial de Temporada
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+        Elegí el rubro que necesitás hoy y te mandamos opciones disponibles con precio justo.
+      </p>
+</div>
+<!-- Grilla Bento Asimétrica 3x2 -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- Banner 1: Celeste / Turquesa suave (Ropa & Abrigo) -->
+<div class="relative bg-[#E6F4F8] rounded-[2rem] p-space-lg overflow-hidden shadow-sm flex flex-col justify-between min-h-[300px]">
+<div class="z-10 flex flex-col space-y-space-xs max-w-[65%]">
+<span class="inline-block px-3 py-1 rounded-full bg-white/80 backdrop-blur-sm text-[#00657A] font-label-sm text-label-sm font-bold w-fit">
+            LIQUIDACIÓN 35% OFF
+          </span>
+<h3 class="font-headline-md text-headline-md text-[#083640] tracking-tight">
+            Ropa &amp; Abrigo Para Todos los Días
+          </h3>
+<p class="font-body-sm text-body-sm text-[#27525C]">
+            Buzos de friza, camperitas livianas y joggings cómodos para grandes y chicos.
+          </p>
+</div>
+<div class="z-10 pt-space-md">
+<a class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-[#083640] text-white font-label-md text-label-md hover:opacity-90 transition-all shadow-sm" href="https://wa.me/59893374496?text=Hola!%20Quiero%20consultar%20talles%20de%20la%20liquidación%20de%20ropa" rel="noopener noreferrer" target="_blank">
+<span>Consultar talle</span>
+<span class="material-symbols-outlined text-[16px]">chat</span>
+</a>
+</div>
+<div class="absolute -right-4 -bottom-4 w-48 h-48 rounded-full bg-cover bg-center shadow-lg transform rotate-3" data-alt="Neat stack of soft colorful warm knitted sweaters, hoodies and winter fleece clothing folded softly in a clean modern wardrobe corner with bright pastel teal backdrop." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBc30ddCaeYP6YN8KF5CT0hmd3lTmW3nPIhz3isxbiHLkeLIsG5XRkZrYYKJsWNSuCdPyM1Q6Ijw-9tLRa_Hdwhwsr0jFVJeaBLpuD5whVIAKZRE_pMq5U5zGMUJXbtijgTB9WgQUuy-aCKlkYTifPY7YzmDhUHO-1SNayrFFUp9DuY2GTe6igF8Qp4F1efEmOSAAZc3WLHXZfLs4c5knWqTHilXMCbZgu11dBQCjk')"></div>
+</div>
+<!-- Banner 2: Esmeralda / Verde cálido (Calzado Urbano & Pantuflas) -->
+<div class="relative bg-[#E8F6EE] rounded-[2rem] p-space-lg overflow-hidden shadow-sm flex flex-col justify-between min-h-[300px]">
+<div class="z-10 flex flex-col space-y-space-xs max-w-[65%]">
+<span class="inline-block px-3 py-1 rounded-full bg-white/80 backdrop-blur-sm text-[#006D38] font-label-sm text-label-sm font-bold w-fit">
+            COMODIDAD SAYAGO 30% OFF
+          </span>
+<h3 class="font-headline-md text-headline-md text-[#023E1E] tracking-tight">
+            Calzado Urbano &amp; Pantuflas Abrigadas
+          </h3>
+<p class="font-body-sm text-body-sm text-[#1D5433]">
+            Para andar por casa bien calentito o salir a caminar sin que te duelan los pies.
+          </p>
+</div>
+<div class="z-10 pt-space-md">
+<a class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-[#023E1E] text-white font-label-md text-label-md hover:opacity-90 transition-all shadow-sm" href="https://wa.me/59893374496?text=Hola!%20Quisiera%20elegir%20número%20en%20calzado%20y%20pantuflas" rel="noopener noreferrer" target="_blank">
+<span>Elegir número</span>
+<span class="material-symbols-outlined text-[16px]">straighten</span>
+</a>
+</div>
+<div class="absolute -right-4 -bottom-4 w-48 h-48 rounded-full bg-cover bg-center shadow-lg transform -rotate-3" data-alt="Cozy fluffy warm indoor slippers paired with stylish minimalist walking sneakers resting on a soft textured woolen carpet with gentle warm natural sunlight." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDHmv2Vnbvk2esV8OhVpwgHC_bHZITSyozy0ETGh30ABdKJ6JfObkiESsWx5UL_W3j6DAJLPOCXRCRX236rAEE3zg0rpHanPaaB6_y-kPeSiXFau7TH50VNPsucOKGmB7HWvkg8OM_N6e9YLgTsoB6u3Tq12qsnoSE_xAVj71f9P0pQzM81-BfhjSokHJuby6L40BCJi0Uh7K6MwtDsFS5f_03pq3eW0tPfEmGNXtc')"></div>
+</div>
+<!-- Banner 3: Mostaza / Dorado cálido (Perfumes & Cuidado) -->
+<div class="relative bg-[#FBF3DC] rounded-[2rem] p-space-lg overflow-hidden shadow-sm flex flex-col justify-between min-h-[300px]">
+<div class="z-10 flex flex-col space-y-space-xs max-w-[65%]">
+<span class="inline-block px-3 py-1 rounded-full bg-white/80 backdrop-blur-sm text-[#735100] font-label-sm text-label-sm font-bold w-fit">
+            REGALOS LINDOS
+          </span>
+<h3 class="font-headline-md text-headline-md text-[#422E00] tracking-tight">
+            Perfumes &amp; Cuidado Personal
+          </h3>
+<p class="font-body-sm text-body-sm text-[#5B4307]">
+            Cremas hidratantes, jabonería aromática y estuches para obsequiar a precio accesible.
+          </p>
+</div>
+<div class="z-10 pt-space-md">
+<a class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-[#422E00] text-white font-label-md text-label-md hover:opacity-90 transition-all shadow-sm" href="https://wa.me/59893374496?text=Hola!%20Quisiera%20ver%20las%20fragancias%20disponibles" rel="noopener noreferrer" target="_blank">
+<span>Ver fragancias</span>
+<span class="material-symbols-outlined text-[16px]">spa</span>
+</a>
+</div>
+<div class="absolute -right-4 -bottom-4 w-48 h-48 rounded-full bg-cover bg-center shadow-lg transform rotate-6" data-alt="A luxurious collection of body creams, scented perfumes, botanical soaps and beauty care cosmetics arranged with dried flowers and natural amber glass bottles." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC61trZc1pFbuQNvZ4Rk_9Zq9ab0p-XxBRj2vrRGu1dei2sE4-9ksOqwFAsXH1RvBhuf43pL__dCXoQKIDkiCx9E974MwUac1ZhMDNw6EM_3wPHwZBgqYGAYLo120pHfQ9hlGTUU8YS9hBgQ9EP6G1ZfyGvRErezSuWEoz8VFV4TNljwL0gTyUA9gibwuiC7Odlrl14dDgc3-Xs6ud7-kfvnvvSJtVmAxKxVOy9jQE')"></div>
+</div>
+<!-- Banner 4: Terracota / Coral (Para los más chicos) -->
+<div class="relative bg-secondary-fixed/50 rounded-[2rem] p-space-lg overflow-hidden shadow-sm flex flex-col justify-between min-h-[300px]">
+<div class="z-10 flex flex-col space-y-space-xs max-w-[70%]">
+<span class="inline-block px-3 py-1 rounded-full bg-white/80 backdrop-blur-sm text-secondary font-label-sm text-label-sm font-bold w-fit">
+            PARA LOS MÁS CHICOS 25% OFF
+          </span>
+<h3 class="font-headline-md text-headline-md text-on-secondary-fixed tracking-tight">
+            Abrigo Infantil &amp; Detalles Escolares
+          </h3>
+<p class="font-body-sm text-body-sm text-on-secondary-fixed-variant">
+            Panchas escolares, medias abrigadas, cartucheras y camperitas resistentes para la escuela y el liceo.
+          </p>
+</div>
+<div class="z-10 pt-space-md">
+<a class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary text-white font-label-md text-label-md hover:bg-on-secondary-fixed-variant transition-all shadow-sm" href="https://wa.me/59893374496?text=Hola!%20Quiero%20consultar%20por%20artículos%20infantiles" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[16px]">call</span>
+<span>Consultas rápidas: 093 374 496</span>
+</a>
+</div>
+<div class="absolute -right-4 -bottom-4 w-44 h-44 rounded-full bg-cover bg-center shadow-lg transform -rotate-6" data-alt="Charming colorful children back to school set with warm miniature kids knit hoodies, colorful pens, school notebook, and friendly soft backpack on wooden desk." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCy7fy0eswI92UsTxFJMIhXOOzgPU9HIg2ulNAUtSztFA3SW1pYlOynoGnGtt7YVkgS0DTFpmNQL3naRcPGgHUKs05hqrIdbR0HrYr8TUZHwAhgWs2XvrEJ3MuvUSNwuyDS60sVMWyD8JF6gbhdG_N8BmWNcXAxHvUHCmoa6As5VBWMohNIIFnh29CPVkWwsu9jWBUQGMvdIUOdIsUs8LCwhwBgwA6_7ZXbC4fiX9E')"></div>
+</div>
+<!-- Banner 5: Violeta profundo / Ancho 2 Columnas (Bazar del Hogar) -->
+<div class="relative md:col-span-2 bg-primary-container text-on-primary rounded-[2rem] p-space-lg overflow-hidden shadow-lg flex flex-col md:flex-row items-center justify-between min-h-[300px] gap-space-lg">
+<div class="z-10 flex flex-col space-y-space-sm max-w-xl text-left">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-lowest/15 backdrop-blur-md text-secondary-container font-label-sm text-label-sm font-bold w-fit">
+<span class="material-symbols-outlined text-[16px]">roofing</span>
+<span>EL FAVORITO DEL BARRIO</span>
+</div>
+<h3 class="font-headline-lg-mobile lg:font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-primary tracking-tight">
+            Bazar del Hogar &amp; Detalles Útiles
+          </h3>
+<p class="font-body-md text-body-md text-on-primary-container leading-relaxed">
+            Mates uruguayos, bombillas de alpaca, manteles antimanchas, organizadores y piezas prácticas para renovar tu cocina desde tan solo <span class="text-secondary-container font-bold text-[18px]">$120</span>.
+          </p>
+<div class="pt-space-xs">
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-xs rounded-full bg-[#25D366] text-white font-label-md text-label-md shadow-lg shadow-[#25D366]/20 hover:brightness-105 active:scale-95 transition-all" href="https://wa.me/59893374496?text=Hola!%20Me%20gustaría%20ver%20fotos%20de%20bazar%20y%20cositas%20para%20el%20hogar" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+<span>Pedir fotos por WhatsApp</span>
+</a>
+</div>
+</div>
+<div class="w-full md:w-64 h-56 rounded-2xl overflow-hidden relative shadow-md flex-shrink-0">
+<div class="w-full h-full bg-cover bg-center" data-alt="A curated rustic aesthetic kitchen counter with Uruguayan mate gourds, stainless steel vacuum flasks, ceramic bowls, wooden spatulas, and woven table placemats in a sunlit kitchen." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDAZ7tyVnkibIXOtM2YyZ7YuUayb4FQ5n3DWGWh4nU6YV1jyzf5YuIO8RQ-Hl21UchxoW8QTwQAFor8gcXw5cHmecUZse3A78BmARvnkiDN4eyUhAqIbqPTYSlN_9nMWUDtUR78FCZwPC3v3sFEbb7K03DcCb9qPCDkEjqtC9KouXpssgf7YEn8tcBt-Jfu5D46i5SY4Zft4wbT2gBe0v1ASXozmZyqcgXiqrZRxKE')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent flex items-end p-3">
+<span class="font-label-sm text-label-sm text-white">Nuevos ingresos de ayer</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 4: COLECCIÓN DE TEMPORADA SAYAGO (Grilla de 4 Tarjetas + Flechas) -->
+<section class="w-full max-w-7xl mx-auto px-gutter lg:px-margin-desktop py-space-xl">
+<!-- Encabezado con Flechas Prev / Next -->
+<div class="flex items-center justify-between mb-space-lg">
+<div class="flex flex-col text-left">
+<span class="font-label-md text-label-md text-secondary uppercase tracking-widest font-bold">Catálogo destacado</span>
+<h2 class="font-headline-lg-mobile lg:font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-primary tracking-tight">
+          Colección de Temporada Sayago
+        </h2>
+</div>
+<!-- Controles de Navegación -->
+<div class="flex items-center gap-space-xs">
+<button aria-label="Anterior" class="w-10 h-10 rounded-full bg-surface-container-high hover:bg-secondary-fixed text-primary flex items-center justify-center transition-colors shadow-sm" onclick="const container = document.getElementById('catalog-carousel'); container.scrollBy({ left: -320, behavior: 'smooth' });" type="button">
+<span class="material-symbols-outlined text-[20px]">chevron_left</span>
+</button>
+<button aria-label="Siguiente" class="w-10 h-10 rounded-full bg-surface-container-high hover:bg-secondary-fixed text-primary flex items-center justify-center transition-colors shadow-sm" onclick="const container = document.getElementById('catalog-carousel'); container.scrollBy({ left: 320, behavior: 'smooth' });" type="button">
+<span class="material-symbols-outlined text-[20px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Carrusel / Grilla de 4 Tarjetas de Productos -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md overflow-x-auto pb-space-sm scroll-smooth snap-x snap-mandatory" id="catalog-carousel">
+<!-- Producto 1: Campera Inflada -->
+<div class="snap-start bg-surface-container-lowest rounded-3xl p-space-md shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="relative w-full aspect-square rounded-2xl overflow-hidden bg-surface-container-low mb-space-sm">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="A modern stylish thermal puffer jacket in matte black and olive green with warm interior lining, displayed cleanly on a minimal studio background." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuADYkGe6ojLoLuOwNNjdcwpM0LuXsFXyJHj-j-uOvJvycHx3_SlKWia2AvG8IF6LoruKMJnAOYBr7VP5Wr5AvmmayThQu0s38oj6ohRcrrKQUdZx6ZAoFnHtD50o20D8umFkRXxZbGS22zowpnLVsunkS_VZdHp0_qCsSqCklMSEepiOG0LEgQ65m6q5oN77STxD5JXJ6q1eaX2veBYKg247GLGEJV-DFkFdWTRU_k')"></div>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm font-bold shadow-sm">
+              Más Vendido
+            </span>
+</div>
+<div class="flex flex-col text-left">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-semibold">Indumentaria</span>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors mt-0.5 line-clamp-1">
+              Campera Inflada Liviana Térmica
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">
+              Súper liviana, repelente al agua y con capucha desmontable. Ideal para las mañanas frías.
+            </p>
+</div>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant line-through">$1.450</span>
+<span class="font-headline-md text-headline-md text-primary font-bold leading-none">$1.190</span>
+</div>
+<a aria-label="Pedir por WhatsApp" class="w-11 h-11 rounded-full bg-[#25D366] text-white flex items-center justify-center hover:scale-105 active:scale-95 shadow-md shadow-[#25D366]/30 transition-all" href="https://wa.me/59893374496?text=Hola!%20Me%20interesa%20la%20Campera%20Inflada%20Liviana%20Térmica" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[22px]">chat</span>
+</a>
+</div>
+</div>
+<!-- Producto 2: Calza Tiro Alto -->
+<div class="snap-start bg-surface-container-lowest rounded-3xl p-space-md shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="relative w-full aspect-square rounded-2xl overflow-hidden bg-surface-container-low mb-space-sm">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Comfortable high-waist women thermal fleece leggings in solid black and navy blue with smooth elastic fabric, folded elegantly in bright natural lighting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBb3pBvztUloO7Qy1Sj5ic7mRQJDzWvYWSuVO6cChu_oYNzPZ3OrFc9prMARv0YbiqYOd4drsYVLwQMzJfOtPZq0-2Ft7EXF9jnHnwhdbN8j18PVPkZ25K3VDw8JH25PrjobVNkvDhNHqONeKqYUikckkk6xH8wDjSG-rbSV4qNcvGrv_G3CsnTTaPzPkcUoaEhPZIkHs1ip4fUcQN1t6tVC9XrlyySPCJEEFWS0As')"></div>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-bold shadow-sm">
+              Talles Reales S al 4XL
+            </span>
+</div>
+<div class="flex flex-col text-left">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-semibold">Comodidad Diaria</span>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors mt-0.5 line-clamp-1">
+              Calza Tiro Alto con Friza
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">
+              Tejido suave que no trasluce, faja ancha contenida y abrigo interior ultra suave.
+            </p>
+</div>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Precio vecinal</span>
+<span class="font-headline-md text-headline-md text-primary font-bold leading-none">$420</span>
+</div>
+<a aria-label="Pedir por WhatsApp" class="w-11 h-11 rounded-full bg-[#25D366] text-white flex items-center justify-center hover:scale-105 active:scale-95 shadow-md shadow-[#25D366]/30 transition-all" href="https://wa.me/59893374496?text=Hola!%20Quisiera%20consultar%20talles%20de%20la%20Calza%20Tiro%20Alto%20con%20Friza" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[22px]">chat</span>
+</a>
+</div>
+</div>
+<!-- Producto 3: Termo Acero Inox -->
+<div class="snap-start bg-surface-container-lowest rounded-3xl p-space-md shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="relative w-full aspect-square rounded-2xl overflow-hidden bg-surface-container-low mb-space-sm">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Durable stainless steel 1-liter vacuum insulated water flask with matte green finish and pouring spout for mate on clean wooden surface with soft shadows." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCF21SzhDC3pNnUH1pKIvNqdyMqZUkPd58Ahsv4k76SO1QdVz4IRFnN1DzdwqgqeTXFZnP0giAiy4JAJnDvBHhGmRMoSQrK0yGA3VxkHtW4n5QxQNNAzDvOGI8ZmNd0jiSfPE75KwWXOK2CRp8FhDv1xdKpf_3lgNKCtwjYX1PZKoFox9KGuUGCGDJxpiaHxJy779icX3sUl-QFXB8euOdfO9gj1oPjFP4idtEmayM')"></div>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm font-bold shadow-sm">
+              Conserva 24 hs
+            </span>
+</div>
+<div class="flex flex-col text-left">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-semibold">Bazar &amp; Mate</span>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors mt-0.5 line-clamp-1">
+              Termo Acero Inox 1L
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">
+              Pico cebador matero preciso, doble capa térmica para frío/calor y garantía de durabilidad.
+            </p>
+</div>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant line-through">$890</span>
+<span class="font-headline-md text-headline-md text-primary font-bold leading-none">$750</span>
+</div>
+<a aria-label="Pedir por WhatsApp" class="w-11 h-11 rounded-full bg-[#25D366] text-white flex items-center justify-center hover:scale-105 active:scale-95 shadow-md shadow-[#25D366]/30 transition-all" href="https://wa.me/59893374496?text=Hola!%20Quisiera%20saber%20más%20del%20Termo%20Acero%20Inox%201L" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[22px]">chat</span>
+</a>
+</div>
+</div>
+<!-- Producto 4: Difusor de Varillas + Crema -->
+<div class="snap-start bg-surface-container-lowest rounded-3xl p-space-md shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="relative w-full aspect-square rounded-2xl overflow-hidden bg-surface-container-low mb-space-sm">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="An elegant gift combo featuring an amber reed diffuser bottle with bamboo sticks next to a scented botanical hand cream tube wrapped in a raffia ribbon on a soft background." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAcucJMQul9U-bTmZ8KNW4ttizAT0YVtItkFA01_gmizmimT7yHZ5a6vhRhS6qA93-aoNZ63L4gg7QCXTL_pgpv4-DFF5tgjsiwMqN_Whi85FwhxpgllVgIylpy6y_BVWHHUahfOc-6KLJxU6wasv-ndSjsNPFMi0JzGGYcRC-GsKNPy1W93RSzsVQx8euGCrlC-Zznewky0tirEFForjAYFNKKhoLv7a7IF3k8jj8')"></div>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold shadow-sm">
+              Ideal Regalo
+            </span>
+</div>
+<div class="flex flex-col text-left">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-semibold">Aromas &amp; Spa</span>
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors mt-0.5 line-clamp-1">
+              Difusor de Varillas + Crema
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 line-clamp-2">
+              Fragancias persistentes de Vainilla Francesa o Verbena con crema hidratante para manos.
+            </p>
+</div>
+</div>
+<div class="pt-space-md mt-space-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Combo dúo</span>
+<span class="font-headline-md text-headline-md text-primary font-bold leading-none">$360</span>
+</div>
+<a aria-label="Pedir por WhatsApp" class="w-11 h-11 rounded-full bg-[#25D366] text-white flex items-center justify-center hover:scale-105 active:scale-95 shadow-md shadow-[#25D366]/30 transition-all" href="https://wa.me/59893374496?text=Hola!%20Quiero%20pedir%20el%20combo%20de%20Difusor%20más%20Crema" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[22px]">chat</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 5: ATENCIÓN VECINAL - BANNER VIOLETA DESTACADO -->
+<section class="w-full max-w-7xl mx-auto px-gutter lg:px-margin-desktop py-space-xl">
+<div class="relative bg-primary-container text-on-primary rounded-[2.5rem] p-space-lg lg:p-space-xl overflow-hidden shadow-2xl">
+<!-- Luces de fondo decorativas -->
+<div class="absolute -right-16 -top-16 w-80 h-80 rounded-full bg-secondary-container/20 blur-3xl pointer-events-none"></div>
+<div class="absolute left-1/4 -bottom-20 w-64 h-64 rounded-full bg-tertiary-fixed/10 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+<div class="lg:col-span-8 flex flex-col space-y-space-sm text-left">
+<div class="inline-flex items-center gap-space-xs px-space-md py-1 rounded-full bg-white/10 backdrop-blur-md self-start text-secondary-fixed font-label-sm text-label-sm font-bold">
+<span class="material-symbols-outlined text-[16px]">support_agent</span>
+<span>Atención Personalizada en Mano Propia</span>
+</div>
+<h2 class="font-headline-lg-mobile lg:font-headline-lg text-headline-lg-mobile lg:text-headline-lg text-on-primary tracking-tight">
+            ¿Buscás un talle específico o un artículo para tu casa?
+          </h2>
+<p class="font-body-lg text-body-lg text-on-primary-container leading-relaxed max-w-2xl">
+            Mandanos una foto o contanos lo que necesitás. Te mandamos fotos reales de lo disponible al instante sin compromiso.
+          </p>
+<div class="pt-space-xs flex flex-wrap items-center gap-space-md text-on-primary-container font-label-md text-label-md">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px]">check_circle</span>
+<span>Sin esperas de correo</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px]">check_circle</span>
+<span>Retiro en puerta sin costo</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px]">check_circle</span>
+<span>Envío en el día en Sayago</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-4 flex flex-col items-start lg:items-end justify-center">
+<a class="inline-flex items-center justify-center gap-space-sm px-space-xl py-4 rounded-full bg-[#25D366] text-white font-headline-sm text-[18px] leading-tight shadow-xl shadow-[#25D366]/40 hover:brightness-105 active:scale-95 transition-all text-center group" href="https://wa.me/59893374496" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[26px]">chat</span>
+<span>Escribinos al 093 374 496</span>
+</a>
+<span class="text-on-primary-container font-label-sm text-label-sm mt-3 self-center lg:self-end">
+            Atendido por Marifer • Sayago, Montevideo
+          </span>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low mt-space-xl pt-space-xl pb-space-lg"><div class="max-w-7xl mx-auto px-gutter lg:px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-space-lg text-on-surface-variant font-body-sm text-body-sm"><div class="space-y-space-sm"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">MARIFER</span><span class="font-label-sm text-label-sm text-secondary font-bold">Almacén y Bazar Vecinal</span></div><p class="font-body-sm text-body-sm leading-relaxed text-on-surface-variant">Tu tienda de confianza en Sayago. Atendida con orgullo, variedad para el hogar, regalos prácticos y la calidez de siempre.</p><div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface pt-space-xs"><span class="material-symbols-outlined text-secondary text-[18px]">location_on</span><span>Sayago, Montevideo - Uruguay</span></div></div><div class="space-y-space-sm"><h4 class="font-headline-sm text-headline-sm text-on-surface text-[16px] leading-[22px]">Rubros Disponibles</h4><ul class="space-y-space-xs"><li class="hover:text-primary transition-colors cursor-pointer">Bazar y Artículos para el Hogar</li><li class="hover:text-primary transition-colors cursor-pointer">Librería y Papelería Escolar</li><li class="hover:text-primary transition-colors cursor-pointer">Juguetería y Regalería</li><li class="hover:text-primary transition-colors cursor-pointer">Cuidado Personal y Limpieza</li><li class="hover:text-primary transition-colors cursor-pointer">Combos y Promociones Barriales</li></ul></div><div class="space-y-space-sm"><h4 class="font-headline-sm text-headline-sm text-on-surface text-[16px] leading-[22px]">Atención y Retiros</h4><ul class="space-y-space-xs"><li><span class="font-bold text-on-surface">Lunes a Viernes:</span> 09:00 a 19:30 hs</li><li><span class="font-bold text-on-surface">Sábados:</span> 09:30 a 14:00 hs</li><li><span class="font-bold text-on-surface">Retiros:</span> Sin costo por nuestro local</li><li><span class="font-bold text-on-surface">Envíos en el día:</span> Sayago y zonas vecinas</li></ul></div><div class="space-y-space-sm"><h4 class="font-headline-sm text-headline-sm text-on-surface text-[16px] leading-[22px]">Contacto Directo</h4><p class="font-body-sm text-body-sm">Coordiná tu pedido o consultanos disponibilidad por WhatsApp directo con el mostrador.</p><div class="flex flex-col gap-space-xs pt-space-xs"><a class="inline-flex items-center gap-space-xs font-label-lg text-label-lg text-primary hover:text-secondary transition-colors" href="https://wa.me/59893374496"><span class="material-symbols-outlined text-[18px]">phone_iphone</span>+598 93 374 496</a><span class="font-label-sm text-label-sm text-on-surface-variant">Atención vecinal en mano propia</span></div></div></div><div class="max-w-7xl mx-auto px-gutter lg:px-margin-desktop mt-space-lg pt-space-md border-t border-outline-variant/30 flex flex-col sm:flex-row items-center justify-between gap-space-sm font-label-sm text-label-sm text-on-surface-variant"><span>© 2025 MARIFER Tienda de Barrio. Todos los derechos reservados.</span><span>Sayago, Montevideo • Hecho con orgullo vecinal</span></div></footer></body></html>
